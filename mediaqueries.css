@@ -11,9 +11,11 @@
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
+        background-color: #101E42;
     }
     #hamburger-nav {
         display: flex;
+        background-color: #101E42;
     }
     #experience,
     .experience-details-container {
@@ -22,6 +24,10 @@
     #profile,
     .section-container {
         display: block;
+    }
+    .logo img {
+        width: 250px;
+        height: 250px;
     }
     .arrow {
         display: none;
@@ -45,7 +51,7 @@
 
 @media screen and (max-width: 600px) {
     #contact,
-    .footer {
+    footer {
         height: 40vh;
     }
     #profile {
@@ -63,12 +69,14 @@
     .contact-info-upper-container,
     .btn-container {
         flex-wrap: wrap;
+        gap: 0.8rem;
     }
     .about-containers {
         flex-direction: column;
     }
     .contact-info-container {
         margin: 0;
+        gap: 0.8rem;
     }
     .contact-info-container p,
     .nav-links li a {
@@ -80,6 +88,12 @@
     .logo {
         font-size: 1.5rem;
     }
+
+    .logo img {
+        height: 200px;
+        width: 200px;
+    }
+
     .nav-links {
         flex-direction: column;
         gap: 0.5rem;

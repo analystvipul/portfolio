@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Vipul Patil</div>
+        <div class="logo"><a href="#desktop-nav"><img src="./assets/my_logo.png" alt="My Logo"></a></div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -20,7 +20,9 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Vipul Patil</div>
+        <div class="logo">
+            <img src="./assets/my_logo.png" alt="My Logo">
+        </div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -28,6 +30,7 @@
                 <span></span>
             </div>
             <div class="menu-links">
+                <li><a href="#desktop-nav" onclick="toggleMenu()">Profile</a></li>
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -358,7 +361,7 @@
                 alt="Email icon" 
                 class="icon contact-icon email-icon"
                 />
-                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a>
+                <p><a href="mailto:patilvipul244@gmail.com">Leave me a Mail</a>
                 </p>
             </div>
             <div class="contact-info-container">
@@ -370,12 +373,31 @@
                 <p><a href="https://www.linkedin.com/in/analystvipul/">LinkedIn</a>
                 </p>
             </div>
+            <div class="contact-info-container">
+                <img 
+                src="./assets/instagram.png" 
+                alt="Instagram icon" 
+                class="icon contact-icon"
+                />
+                <p><a href="https://www.instagram.com/konvipul/">Instagram</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                src="./assets/twitter.png" 
+                alt="Twitter icon" 
+                class="icon contact-icon"
+                />
+                <p><a href="https://twitter.com/konvipul/">Twitter</a>
+                </p>
+            </div>
         </div>
     </section>
     <footer>
         <nav>
             <div class="nav-links-container">
                 <ul class="nav-links">
+                    <li><a href="#desktop-nav">Profile</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
